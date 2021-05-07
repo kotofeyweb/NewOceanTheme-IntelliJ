@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>com.villains.intelij.plugin.newoceantheme</id>
+  <name>New Ocean Theme</name>
+  <version>1.01</version>
+  <vendor email="kotofey.web@gmail.com" url="https://github.com/kotofeyweb">Kostyantyn Safonov</vendor>
+
+  <description><![CDATA[
+      <p>Just a beautiful dark theme.</p>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <h2>2021.05.05 (v1.01)</h2>
+      <ul>
+        <li>Updated the theme icon.</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment next line to enable plugin in all products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="d6b0e072-3367-4550-802c-0efcc27e40ba" path="/NewOcean.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
